@@ -1,0 +1,25 @@
+{
+  "name": "npm-test",
+  "version": "1.0.0",
+  "description": "Lint to standard.js, run tape tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kipparker/node-standard-lint.git"
+  },
+  "author": "Kip Parker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kipparker/node-standard-lint/issues"
+  },
+  "homepage": "https://github.com/kipparker/node-standard-lint#readme",
+  "dependencies": {
+    "browserify": "^11.0.0",
+    "standard": "^6.0.8",
+    "tape": "^4.5.1",
+    "tape-run": "^2.1.3"
+  }
+}
